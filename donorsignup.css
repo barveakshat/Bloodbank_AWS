@@ -1,0 +1,91 @@
+/* Reset some default styles */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('bg.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    font-family: FontAwesome;
+    font-size: 50px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: FontAwesome;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    input, select {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
