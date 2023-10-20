@@ -148,7 +148,6 @@ text-align: center;
 	</table>
 
 </div>
-<?php require 'footer.php'; ?>
 </body>
 </html>
 <?php } ?>

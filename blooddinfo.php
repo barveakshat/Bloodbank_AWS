@@ -111,7 +111,6 @@
                 <option>O+</option>
           </select><br>
           <input type="submit" name="add" value="Add" class="btn btn-primary btn-block"><br>
-          <a href="Userpage.html" class="float-right" title="click here">Cancel</a>
         </form>
          </div>
        </div>
@@ -154,6 +153,5 @@
 
    </div>
 </div>
-<?php require 'footer.php' ?>
 </body>
 <?php } ?>
